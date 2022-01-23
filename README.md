@@ -1,4 +1,4 @@
-#YoProgramo
+# Proyecto final #YoProgramo
 Este es el repositorio para el proyecto final del curso #YoProgramo, cuyo objetivo es crear un portfolio web con Angular/Typescript, Java/Spring y una bd de MySQL.
 
 # FinalProjectPortfolio
