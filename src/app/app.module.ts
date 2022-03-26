@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BannerAboutMeComponent } from './banner-about-me/banner-about-me.component';
 import { ProfessionalExperienceComponent } from './professional-experience/professional-experience.component';
 import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EducationComponent } from './education/education.component';
     NavbarComponent,
     BannerAboutMeComponent,
     ProfessionalExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
