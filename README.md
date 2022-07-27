@@ -1,3 +1,14 @@
+# NOTAS:
+-> Este frontend tiene una comunicación inacabada con la API de Spring.
+
+-> Por cuestiones personales / laborales no pude completar los servicios que consumen la API, pero puden ver en el dir "servides" que había empezado a hacerlo.
+
+-> Otros puntos inconclusos:
+
+    * Botones de edición
+    
+    * Formulario de Login
+
 # Proyecto final #YoProgramo
 Este es el repositorio para el proyecto final del curso #YoProgramo, cuyo objetivo es crear un portfolio web con Angular/Typescript, Java/Spring y una bd de MySQL.
 
