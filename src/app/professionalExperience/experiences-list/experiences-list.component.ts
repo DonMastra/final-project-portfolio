@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ProfesionalExperience } from 'src/app/models/professionalExperience';
+import { ProfessionalExperience } from 'src/app/models/professionalExperience';
 import { ProfessionalExperienceService } from 'src/app/services/professional-experience.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { ProfessionalExperienceService } from 'src/app/services/professional-exp
 })
 export class ExperiencesListComponent implements OnInit {
   @Input() user?: string;
-  experiences: ProfesionalExperience[] = [];
+  experiences: ProfessionalExperience[] = [];
 
   constructor(
     private experienceService: ProfessionalExperienceService
