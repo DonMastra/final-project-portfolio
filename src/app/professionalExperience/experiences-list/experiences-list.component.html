@@ -1,6 +1,8 @@
 <div class="container-fluid mt-5">
   <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-    <div class="blockquote-custom-icon bg-secondary">PROFFESSIONAL EXPERIENCE</div>
+    <div class="blockquote-custom-icon bg-secondary" *ngFor="let exp of experiences">
+      {{ exp.jobTitle }}
+    </div>
 
     <div class="container-fluid">
       <div class="row">
@@ -14,13 +16,13 @@
           </div>
         </div>
 
-        <div class="col-md-8 mt-2">
+        <div class="col-md-8 mt-2" *ngFor="let exp of experiences">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+            {{ exp.description }}
           </p>
         </div>
+        <!-- <td *ngIf="user === 'admin'"><button class="btn btn-warning" routerLink="/editar/{{producto.id}}">Editar</button></td>
+        <td *ngIf="user === 'admin'"><button class="btn btn-danger" (click)="onDelete(producto.id)">Borrar</button></td> -->
 
       </div>
     </div>
